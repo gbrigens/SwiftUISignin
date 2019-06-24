@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E20ACEBA22BE4AF000F39ED7 /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20ACEAE22BE4AEF00F39ED7 /* NunitoSans-Bold.ttf */; };
+		E20ACEBB22BE4AF000F39ED7 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20ACEAF22BE4AEF00F39ED7 /* OpenSans-Regular.ttf */; };
+		E20ACEBC22BE4AF000F39ED7 /* WorkSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E20ACEB022BE4AEF00F39ED7 /* WorkSans-Regular.otf */; };
+		E20ACEBD22BE4AF000F39ED7 /* Oxygen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20ACEB122BE4AEF00F39ED7 /* Oxygen-Regular.ttf */; };
+		E20ACEBE22BE4AF000F39ED7 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20ACEB222BE4AF000F39ED7 /* OpenSans-Bold.ttf */; };
+		E20ACEBF22BE4AF000F39ED7 /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20ACEB322BE4AF000F39ED7 /* NunitoSans-Regular.ttf */; };
+		E20ACEC022BE4AF000F39ED7 /* MavenPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20ACEB422BE4AF000F39ED7 /* MavenPro-Regular.ttf */; };
+		E20ACEC122BE4AF000F39ED7 /* WorkSans-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = E20ACEB522BE4AF000F39ED7 /* WorkSans-Black.otf */; };
+		E20ACEC222BE4AF000F39ED7 /* Oxygen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20ACEB622BE4AF000F39ED7 /* Oxygen-Bold.ttf */; };
+		E20ACEC322BE4AF000F39ED7 /* WorkSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E20ACEB722BE4AF000F39ED7 /* WorkSans-Bold.otf */; };
+		E20ACEC422BE4AF000F39ED7 /* MavenPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20ACEB822BE4AF000F39ED7 /* MavenPro-Bold.ttf */; };
+		E20ACEC522BE4AF000F39ED7 /* MavenPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20ACEB922BE4AF000F39ED7 /* MavenPro-Medium.ttf */; };
+		E23E07EC22BE95AE00D55061 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E07EB22BE95AE00D55061 /* User.swift */; };
+		E23E07EE22BEB63E00D55061 /* DesignTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E07ED22BEB63E00D55061 /* DesignTwo.swift */; };
+		E23E07F022BEB6D400D55061 /* DesignOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E07EF22BEB6D400D55061 /* DesignOne.swift */; };
+		E2638DAA22BF642900962EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2638DA922BF642900962EF6 /* Assets.xcassets */; };
+		E2638DAC22C0CA9E00962EF6 /* DesignThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2638DAB22C0CA9E00962EF6 /* DesignThree.swift */; };
+		E27C860522BE1A4D0059D51F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C860422BE1A4D0059D51F /* AppDelegate.swift */; };
+		E27C860722BE1A4D0059D51F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C860622BE1A4D0059D51F /* SceneDelegate.swift */; };
+		E27C860922BE1A4D0059D51F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C860822BE1A4D0059D51F /* Home.swift */; };
+		E27C860E22BE1A4F0059D51F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27C860D22BE1A4F0059D51F /* Preview Assets.xcassets */; };
+		E27C861122BE1A4F0059D51F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27C860F22BE1A4F0059D51F /* LaunchScreen.storyboard */; };
+		E27C861C22BE332F0059D51F /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E27C861A22BE332F0059D51F /* RobotoSlab-Bold.ttf */; };
+		E27C861D22BE332F0059D51F /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E27C861B22BE332F0059D51F /* RobotoSlab-Light.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E20ACEAE22BE4AEF00F39ED7 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		E20ACEAF22BE4AEF00F39ED7 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		E20ACEB022BE4AEF00F39ED7 /* WorkSans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Regular.otf"; sourceTree = "<group>"; };
+		E20ACEB122BE4AEF00F39ED7 /* Oxygen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Regular.ttf"; sourceTree = "<group>"; };
+		E20ACEB222BE4AF000F39ED7 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		E20ACEB322BE4AF000F39ED7 /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		E20ACEB422BE4AF000F39ED7 /* MavenPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Regular.ttf"; sourceTree = "<group>"; };
+		E20ACEB522BE4AF000F39ED7 /* WorkSans-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Black.otf"; sourceTree = "<group>"; };
+		E20ACEB622BE4AF000F39ED7 /* Oxygen-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Bold.ttf"; sourceTree = "<group>"; };
+		E20ACEB722BE4AF000F39ED7 /* WorkSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Bold.otf"; sourceTree = "<group>"; };
+		E20ACEB822BE4AF000F39ED7 /* MavenPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Bold.ttf"; sourceTree = "<group>"; };
+		E20ACEB922BE4AF000F39ED7 /* MavenPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Medium.ttf"; sourceTree = "<group>"; };
+		E23E07EB22BE95AE00D55061 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E23E07ED22BEB63E00D55061 /* DesignTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTwo.swift; sourceTree = "<group>"; };
+		E23E07EF22BEB6D400D55061 /* DesignOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignOne.swift; sourceTree = "<group>"; };
+		E2638DA922BF642900962EF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2638DAB22C0CA9E00962EF6 /* DesignThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignThree.swift; sourceTree = "<group>"; };
+		E27C860122BE1A4D0059D51F /* SwiftUISignin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISignin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27C860422BE1A4D0059D51F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E27C860622BE1A4D0059D51F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E27C860822BE1A4D0059D51F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		E27C860D22BE1A4F0059D51F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E27C861022BE1A4F0059D51F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E27C861222BE1A4F0059D51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27C861A22BE332F0059D51F /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
+		E27C861B22BE332F0059D51F /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E27C85FE22BE1A4D0059D51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E23E07F122BEB71A00D55061 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E27C860822BE1A4D0059D51F /* Home.swift */,
+				E23E07EF22BEB6D400D55061 /* DesignOne.swift */,
+				E23E07ED22BEB63E00D55061 /* DesignTwo.swift */,
+				E2638DAB22C0CA9E00962EF6 /* DesignThree.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E23E07F222BEB74100D55061 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E23E07EB22BE95AE00D55061 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E27C85F822BE1A4D0059D51F = {
+			isa = PBXGroup;
+			children = (
+				E27C860322BE1A4D0059D51F /* SwiftUISignin */,
+				E27C860222BE1A4D0059D51F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E27C860222BE1A4D0059D51F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E27C860122BE1A4D0059D51F /* SwiftUISignin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E27C860322BE1A4D0059D51F /* SwiftUISignin */ = {
+			isa = PBXGroup;
+			children = (
+				E27C860422BE1A4D0059D51F /* AppDelegate.swift */,
+				E27C860622BE1A4D0059D51F /* SceneDelegate.swift */,
+				E23E07F122BEB71A00D55061 /* View */,
+				E23E07F222BEB74100D55061 /* Model */,
+				E27C861E22BE33750059D51F /* Font */,
+				E2638DA922BF642900962EF6 /* Assets.xcassets */,
+				E27C860F22BE1A4F0059D51F /* LaunchScreen.storyboard */,
+				E27C861222BE1A4F0059D51F /* Info.plist */,
+				E27C860C22BE1A4F0059D51F /* Preview Content */,
+			);
+			path = SwiftUISignin;
+			sourceTree = "<group>";
+		};
+		E27C860C22BE1A4F0059D51F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E27C860D22BE1A4F0059D51F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E27C861E22BE33750059D51F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				E20ACEB822BE4AF000F39ED7 /* MavenPro-Bold.ttf */,
+				E20ACEB922BE4AF000F39ED7 /* MavenPro-Medium.ttf */,
+				E20ACEB422BE4AF000F39ED7 /* MavenPro-Regular.ttf */,
+				E20ACEAE22BE4AEF00F39ED7 /* NunitoSans-Bold.ttf */,
+				E20ACEB322BE4AF000F39ED7 /* NunitoSans-Regular.ttf */,
+				E20ACEB222BE4AF000F39ED7 /* OpenSans-Bold.ttf */,
+				E20ACEAF22BE4AEF00F39ED7 /* OpenSans-Regular.ttf */,
+				E20ACEB622BE4AF000F39ED7 /* Oxygen-Bold.ttf */,
+				E20ACEB122BE4AEF00F39ED7 /* Oxygen-Regular.ttf */,
+				E20ACEB522BE4AF000F39ED7 /* WorkSans-Black.otf */,
+				E20ACEB722BE4AF000F39ED7 /* WorkSans-Bold.otf */,
+				E20ACEB022BE4AEF00F39ED7 /* WorkSans-Regular.otf */,
+				E27C861A22BE332F0059D51F /* RobotoSlab-Bold.ttf */,
+				E27C861B22BE332F0059D51F /* RobotoSlab-Light.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E27C860022BE1A4D0059D51F /* SwiftUISignin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27C861522BE1A4F0059D51F /* Build configuration list for PBXNativeTarget "SwiftUISignin" */;
+			buildPhases = (
+				E27C85FD22BE1A4D0059D51F /* Sources */,
+				E27C85FE22BE1A4D0059D51F /* Frameworks */,
+				E27C85FF22BE1A4D0059D51F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUISignin;
+			productName = SwiftUISignin;
+			productReference = E27C860122BE1A4D0059D51F /* SwiftUISignin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E27C85F922BE1A4D0059D51F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Gerald Brigen";
+				TargetAttributes = {
+					E27C860022BE1A4D0059D51F = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = E27C85FC22BE1A4D0059D51F /* Build configuration list for PBXProject "SwiftUISignin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E27C85F822BE1A4D0059D51F;
+			productRefGroup = E27C860222BE1A4D0059D51F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E27C860022BE1A4D0059D51F /* SwiftUISignin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E27C85FF22BE1A4D0059D51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20ACEC122BE4AF000F39ED7 /* WorkSans-Black.otf in Resources */,
+				E27C861122BE1A4F0059D51F /* LaunchScreen.storyboard in Resources */,
+				E27C861C22BE332F0059D51F /* RobotoSlab-Bold.ttf in Resources */,
+				E20ACEC422BE4AF000F39ED7 /* MavenPro-Bold.ttf in Resources */,
+				E20ACEBC22BE4AF000F39ED7 /* WorkSans-Regular.otf in Resources */,
+				E20ACEBD22BE4AF000F39ED7 /* Oxygen-Regular.ttf in Resources */,
+				E2638DAA22BF642900962EF6 /* Assets.xcassets in Resources */,
+				E27C861D22BE332F0059D51F /* RobotoSlab-Light.ttf in Resources */,
+				E20ACEBF22BE4AF000F39ED7 /* NunitoSans-Regular.ttf in Resources */,
+				E20ACEBB22BE4AF000F39ED7 /* OpenSans-Regular.ttf in Resources */,
+				E20ACEC522BE4AF000F39ED7 /* MavenPro-Medium.ttf in Resources */,
+				E20ACEC022BE4AF000F39ED7 /* MavenPro-Regular.ttf in Resources */,
+				E20ACEBA22BE4AF000F39ED7 /* NunitoSans-Bold.ttf in Resources */,
+				E27C860E22BE1A4F0059D51F /* Preview Assets.xcassets in Resources */,
+				E20ACEC222BE4AF000F39ED7 /* Oxygen-Bold.ttf in Resources */,
+				E20ACEBE22BE4AF000F39ED7 /* OpenSans-Bold.ttf in Resources */,
+				E20ACEC322BE4AF000F39ED7 /* WorkSans-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E27C85FD22BE1A4D0059D51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23E07EC22BE95AE00D55061 /* User.swift in Sources */,
+				E23E07EE22BEB63E00D55061 /* DesignTwo.swift in Sources */,
+				E23E07F022BEB6D400D55061 /* DesignOne.swift in Sources */,
+				E27C860522BE1A4D0059D51F /* AppDelegate.swift in Sources */,
+				E27C860722BE1A4D0059D51F /* SceneDelegate.swift in Sources */,
+				E27C860922BE1A4D0059D51F /* Home.swift in Sources */,
+				E2638DAC22C0CA9E00962EF6 /* DesignThree.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E27C860F22BE1A4F0059D51F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E27C861022BE1A4F0059D51F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E27C861322BE1A4F0059D51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E27C861422BE1A4F0059D51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E27C861622BE1A4F0059D51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "SwiftUISignin/Preview\\ Content";
+				DEVELOPMENT_TEAM = L98JME3U72;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUISignin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.gbrigens.SwiftUISignin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E27C861722BE1A4F0059D51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "SwiftUISignin/Preview\\ Content";
+				DEVELOPMENT_TEAM = L98JME3U72;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUISignin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.gbrigens.SwiftUISignin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E27C85FC22BE1A4D0059D51F /* Build configuration list for PBXProject "SwiftUISignin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27C861322BE1A4F0059D51F /* Debug */,
+				E27C861422BE1A4F0059D51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E27C861522BE1A4F0059D51F /* Build configuration list for PBXNativeTarget "SwiftUISignin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27C861622BE1A4F0059D51F /* Debug */,
+				E27C861722BE1A4F0059D51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E27C85F922BE1A4D0059D51F /* Project object */;
+}
