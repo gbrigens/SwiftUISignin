@@ -31,6 +31,7 @@
 		E27C861122BE1A4F0059D51F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27C860F22BE1A4F0059D51F /* LaunchScreen.storyboard */; };
 		E27C861C22BE332F0059D51F /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E27C861A22BE332F0059D51F /* RobotoSlab-Bold.ttf */; };
 		E27C861D22BE332F0059D51F /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E27C861B22BE332F0059D51F /* RobotoSlab-Light.ttf */; };
+		E2C1F4D723BA634900D010C2 /* DesignFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C1F4D623BA634900D010C2 /* DesignFour.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		E27C861222BE1A4F0059D51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E27C861A22BE332F0059D51F /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
 		E27C861B22BE332F0059D51F /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
+		E2C1F4D623BA634900D010C2 /* DesignFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignFour.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				E23E07EF22BEB6D400D55061 /* DesignOne.swift */,
 				E23E07ED22BEB63E00D55061 /* DesignTwo.swift */,
 				E2638DAB22C0CA9E00962EF6 /* DesignThree.swift */,
+				E2C1F4D623BA634900D010C2 /* DesignFour.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				E27C860722BE1A4D0059D51F /* SceneDelegate.swift in Sources */,
 				E27C860922BE1A4D0059D51F /* Home.swift in Sources */,
 				E2638DAC22C0CA9E00962EF6 /* DesignThree.swift in Sources */,
+				E2C1F4D723BA634900D010C2 /* DesignFour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +389,7 @@
 				DEVELOPMENT_TEAM = L98JME3U72;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUISignin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -405,6 +410,7 @@
 				DEVELOPMENT_TEAM = L98JME3U72;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SwiftUISignin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

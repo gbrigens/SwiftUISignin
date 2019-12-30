@@ -37,42 +37,39 @@ struct WelcomeView: View {
                     .foregroundColor(.white)
                     .background(Rectangle().frame(width:315,height: 56).cornerRadius(30).accentColor(Color.init(red: 66/255, green: 84/255, blue: 143/255, opacity: 1)))
             }
-            }.padding(.bottom, 40)
+        }.padding(.bottom, 40)
     }
 }
 
 struct FormView: View {
     @EnvironmentObject var user: User
     var body: some View {
-        VStack(alignment: .center){
-            TextField($user.userName, placeholder: Text("Username")
-                .font(.custom("WorkSans-Regular", size: 18))
-                .fontWeight(.light)
-                .color(.secondary))
+        VStack(){
+            TextField("Username", text: $user.userName)
+                .font(.custom("WorkSans-Regular", size: 18)).foregroundColor(Color.secondary)
             Divider().padding(.bottom,20)
-            SecureField($user.password, placeholder: Text("Password").font(.custom("WorkSans-Regular", size: 18))
-                .fontWeight(.light)
-                .color(.secondary))
-            Divider()
+            SecureField("Password", text: $user.password).font(.custom("WorkSans-Regular", size: 18)).foregroundColor(Color.secondary)
+            Rectangle().frame(width:1)
             Button(action: {
                 print("You've entered  for username \(self.user.userName) and \(self.user.password) for password")
             }) {
-                Text("Login")
-                    .font(.custom("WorkSans-Bold", size: 18))
+                Text("Log In")
+                    .font(Font.custom("WorkSans-Bold", size: 18))
                     .foregroundColor(.black)
-                    .background(Rectangle().frame(width:315,height: 56).accentColor(Color.clear).border(Color.gray, cornerRadius: 30))
+//                    .background(Rectangle().frame(width:315,height: 56).accentColor(Color.clear).border(Color.gray, cornerRadius: 30))
                     .frame(width: 200, height: 50, alignment: .center)
-                }.padding(.top,40)
+            }.padding(.top,40)
             Button(action: {
                 print("Forgot pressed")
             }) {
-                Text("Forgotten your password?").font(.custom("WorkSans-Regular", size: 14))
-                    .fontWeight(.light)
-                    .color(.secondary)
-                    .padding(.top,10)
+                Text("Forgotten your password?")
+                    .font(Font.custom("WorkSans-Regular", size: 14))
+//                    .fontWeight(.light)
+//                    .foregroundColor(.secondary)
+//                    .padding(.top,10)
             }
-            }
-            .padding(.horizontal, 44.0)
+        }
+        .padding(.horizontal, 44.0)
     }
 }
 
@@ -82,14 +79,15 @@ struct BottomView: View {
         HStack{
             Text("Haven't registed yet?")
                 .font(.custom("WorkSans-Regular", size: 18))
-            .color(.secondary)
+                .foregroundColor(.secondary)
+            
             Button(action: {
                 print("signup pressed")
             }) {
                 Text("Join now.")
-                    .font(.custom("WorkSans-Bold", size: 18))
+                    .font(Font.custom("WorkSans-Bold", size: 18))
                     .fontWeight(.bold)
-                    .color(.black)
+                    .foregroundColor(.black)
             }
         }.padding(.bottom,15)
     }

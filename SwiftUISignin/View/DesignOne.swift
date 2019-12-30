@@ -15,25 +15,28 @@ struct DesignOne: View {
         VStack{
             VStack{
                 Text("Hello There!")
-                    .font(.custom("RobotoSlab-Bold", size: 32))
+                    .font(Font.custom("RobotoSlab-Bold", size: 32))
                     .fontWeight(.bold)
-                    .color(.pink)
-                Text("Please sign in to continue.")
-                    .font(.custom("RobotoSlab-light", size: 18))
-                    .fontWeight(.light)
-                    .color(.secondary)
-                }.padding(.top,120)
+                    .foregroundColor(.pink)
+//                Text("Please sign in to continue")
+//                    .font(Font.custom("RobotoSlab-light", size: 18))
+//                    .fontWeight(.light)
+//                    .foregroundColor(.secondary)
+            }.padding(.top,120)
             Spacer()
             
             VStack{
-                TextField($user.userName, placeholder: Text("Username").font(.custom("RobotoSlab-light", size: 18))
-                    .fontWeight(.light)
-                    .color(.secondary))
-                Divider().padding(.bottom,20)
-                SecureField($user.password, placeholder: Text("Password").font(.custom("RobotoSlab-light", size: 18))
-                    .fontWeight(.light)
-                    .color(.secondary))
-                Divider()
+                TextField("Username",text: $user.userName).font(.custom("RobotoSlab-light", size: 18))
+                    .foregroundColor(Color.secondary)
+                Rectangle().frame(height: 1)
+                    .foregroundColor(Color.gray)
+                    .padding(.bottom,20)
+                SecureField("password", text: $user.password)
+                    .font(.custom("RobotoSlab-light", size: 18))
+                    .foregroundColor(Color.secondary)
+                Rectangle()
+                    .frame(height: 1)
+                    .foregroundColor(Color.secondary)
                 HStack {
                     Spacer()
                     Button(action: {
@@ -41,25 +44,25 @@ struct DesignOne: View {
                     }) {
                         Text("Forgot Pass?").font(.custom("RobotoSlab-light", size: 14))
                             .fontWeight(.light)
-                            .color(.secondary)
+                            .foregroundColor(.secondary)
                     }
                 }
-                }
-                .padding(.horizontal, 32.0)
+            }
+            .padding(.horizontal, 32.0)
             
             Button(action: {
                 print("You've typed \(self.user.userName) as your username and \(self.user.password) as your password")
             }) {
                 Image("designOneBtn")
-                }.padding(.top,40)
+            }.padding(.top,40)
             Spacer()
             Button(action: {
                 print("signup pressed")
             }) {
                 Text("Sign up, if you're new!").font(.custom("RobotoSlab-light", size: 18))
                     .fontWeight(.light)
-                    .color(.black)
-                }.padding(.bottom, 50)
+                    .foregroundColor(.black)
+            }.padding(.bottom, 50)
         }
     }
 }

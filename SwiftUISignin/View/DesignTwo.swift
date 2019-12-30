@@ -18,7 +18,7 @@ struct DesignTwo : View {
             Spacer()
             FooterView()
         }
-            .background(Image("designTwoBg").resizable()).edgesIgnoringSafeArea(.all)
+        .background(Image("designTwoBg").resizable()).edgesIgnoringSafeArea(.all)
     }
 }
 
@@ -36,17 +36,17 @@ struct FooterView : View {
         VStack {
             Text("Need an account?")
                 .font(.custom("OpenSans-Regular", size: 16))
-                .color(Color(red: 255/255, green: 255/255, blue: 255/255, opacity: 0.3))
-            .padding(.bottom,30)
+                .foregroundColor(Color(red: 255/255, green: 255/255, blue: 255/255, opacity: 0.3))
+                .padding(.bottom,30)
             Button(action: {
                 print("signup pressed")
             }) {
                 Text("SIGN UP")
-                    .font(.custom("OpenSans-Bold", size: 14))
-                    .color(.white)
+                    .font(Font.custom("OpenSans-Bold", size: 14))
+                    .foregroundColor(.white)
                     .background(Rectangle().frame(width:215,height: 60).cornerRadius(10).accentColor(Color(red: 255/255, green: 255/255, blue: 255/255, opacity: 0.1)))
             }
-            }.padding(.bottom, 50)
+        }.padding(.bottom, 50)
     }
 }
 
@@ -54,21 +54,17 @@ struct DesignTwoFormView : View {
     @EnvironmentObject var user: User
     var body: some View {
         VStack{
-            TextField($user.userName, placeholder: Text("Username").font(.custom("RobotoSlab-light", size: 18))
-                .fontWeight(.light)
-                .color(.white))
-            Divider().background(Color.white).padding(.bottom,20)
-            SecureField($user.password, placeholder: Text("Password").font(.custom("RobotoSlab-light", size: 18))
-                .fontWeight(.light)
-                .color(.white))
-            Divider().background(Color.white)
+            TextField("Username", text: $user.userName).font(.custom("RobotoSlab-light", size: 18)).foregroundColor(Color.white)
+            Rectangle().frame(height:1).foregroundColor(Color.white).padding(.bottom,20)
+            SecureField("Password", text: $user.password).font(.custom("RobotoSlab-light", size: 18)).foregroundColor(Color.white)
+            Rectangle().frame(height:1).foregroundColor(Color.white)
             HStack {
                 Button(action: {
                     print("Forgot pressed")
                 }) {
                     Text("Request new password").font(.custom("OpenSans-Regular", size: 14))
                         .fontWeight(.light)
-                        .color(Color(red: 255/255, green: 255/255, blue: 255/255, opacity: 0.3))
+                        .foregroundColor(Color(red: 255/255, green: 255/255, blue: 255/255, opacity: 0.3))
                 }
                 Spacer()
             }
@@ -77,10 +73,10 @@ struct DesignTwoFormView : View {
             }) {
                 Text("LOGIN")
                     .font(.custom("OpenSans-Bold", size: 14))
-                    .color(.black)
+                    .foregroundColor(.black)
                     .background(Rectangle().frame(width:295,height: 60).cornerRadius(10).accentColor(Color.white))
-                }.padding(.top,40)
-            }
-            .padding(.horizontal, 56.0)
+            }.padding(.top,40)
+        }
+        .padding(.horizontal, 56.0)
     }
 }

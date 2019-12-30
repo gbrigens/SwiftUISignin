@@ -9,7 +9,7 @@
 import SwiftUI
 import Combine
 
-class User: BindableObject {
+class User: ObservableObject {
     var didChange = PassthroughSubject<Void,Never>()
     
     var userName = "" {

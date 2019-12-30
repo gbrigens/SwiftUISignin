@@ -13,7 +13,6 @@ struct Home : View {
         DesignThree()
     }
 }
-
 #if DEBUG
 let userData = User()
 struct ContentView_Previews : PreviewProvider {
