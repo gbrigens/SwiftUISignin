@@ -5,15 +5,18 @@ iOS login Screens, with SwiftUI Designs inspired by [Project365.design](https://
 
 
 ## What Done
-- Designed fisrt 3 screens, I am still learning SwiftUI and I will be ittarating this design as time goesby feel free to make a pull request :).
+- All Screens have converted to SwiftUI.
 
 ## Todo
-- Fix cosmetic issues on the designs.
+- Fix keyboard hiding textfields on design 4 and 6.
+- Use custom fonts.
+- Support for dark mode on some of the designs.
 - Add animation.
+
 
 ## Requirement 
 - Xcode Version 11
- - macOS Catalina if you would like to preview your designs in real time.
+- macOS Catalina if you would like to preview your designs in real time.
 
 ## Installation
 1. Open Xcode 11

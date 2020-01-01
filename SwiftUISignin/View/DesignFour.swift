@@ -25,10 +25,10 @@ struct DesignFour: View {
                         .frame(width: 60, height: 60)
                     Text("Login to Continue..")
                         .font(.headline)
-                        .fontWeight(.regular)
+                        .fontWeight(.bold)
                         .foregroundColor(Color.primary)
                 }
-                .offset(x:-48)
+                .offset(x:-49)
                 .padding(.bottom,-40)
                 
                 //Card
@@ -36,6 +36,7 @@ struct DesignFour: View {
                 
                 //Sign-Up
                 Spacer()
+                
                 Button(action: {
                     print("Sign Up")
                 }) {
@@ -56,25 +57,23 @@ struct DesignFour: View {
 
 //MARK: - Custom Modifier
 //TextField
-struct textFieldModifiers: ViewModifier {
+struct textFieldModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .padding(EdgeInsets(top: 15, leading: 10, bottom: 15, trailing: 5))
-            .overlay(
-                RoundedRectangle(cornerRadius: 10)
-                    .stroke(Color("ColorTextFieldGray"),lineWidth: 1))
     }
 }
 
 struct DesignFourNew_Previews: PreviewProvider {
     static var previews: some View {
-        DesignFour().environmentObject(userData)
+        DesignFour()
     }
 }
 
 struct signUpCard: View {
     //MARK: - Properties
-    @EnvironmentObject var user: User
+    @State private var username = ""
+    @State private var password = ""
     
     var body: some View {
         VStack(alignment: .center, spacing: 0){
@@ -82,15 +81,23 @@ struct signUpCard: View {
                 VStack(alignment: .leading, spacing: 5) {
                     Text("Username")
                         .foregroundColor(Color.gray)
-                    TextField("",text: $user.userName)
-                        .modifier(textFieldModifiers())
+                    TextField("",text: $username)
+                        .modifier(textFieldModifier())
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 10)
+                        .stroke(Color("ColorTextFieldGray"),lineWidth: 1))
+                    
                     
                 }
                 VStack(alignment: .leading, spacing: 5) {
                     Text("Password")
                         .foregroundColor(Color.gray)
-                    SecureField("", text: $user.password)
-                        .modifier(textFieldModifiers())
+                    SecureField("", text: $password)
+                        .modifier(textFieldModifier())
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 10)
+                                .stroke(Color("ColorTextFieldGray"),lineWidth: 1))
+                    
                 }
             }
             .padding(.top,45)
@@ -111,14 +118,14 @@ struct signUpCard: View {
             .padding(.leading,25)
             
             Button(action: {
-                print("You've entered username: \(self.$user.userName) and password: \(self.$user.password)")
+                print("You've entered username: \(self.$username) and password: \(self.$password)")
             }) {
                 Text("LOGIN")
                     .foregroundColor(Color.black)
                     .fontWeight(.bold)
             }
             .frame(width: 315, height: 56, alignment: .center)
-            .background(Color("ColorYellowD4"))
+            .background(Color(#colorLiteral(red: 0.9882352941, green: 0.8274509804, blue: 0, alpha: 1)))
             .cornerRadius(10)
             .padding(.top,25)
             .padding(.bottom,25)

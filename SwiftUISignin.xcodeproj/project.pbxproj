@@ -19,11 +19,14 @@
 		E20ACEC322BE4AF000F39ED7 /* WorkSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E20ACEB722BE4AF000F39ED7 /* WorkSans-Bold.otf */; };
 		E20ACEC422BE4AF000F39ED7 /* MavenPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20ACEB822BE4AF000F39ED7 /* MavenPro-Bold.ttf */; };
 		E20ACEC522BE4AF000F39ED7 /* MavenPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20ACEB922BE4AF000F39ED7 /* MavenPro-Medium.ttf */; };
-		E23E07EC22BE95AE00D55061 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E07EB22BE95AE00D55061 /* User.swift */; };
 		E23E07EE22BEB63E00D55061 /* DesignTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E07ED22BEB63E00D55061 /* DesignTwo.swift */; };
 		E23E07F022BEB6D400D55061 /* DesignOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E07EF22BEB6D400D55061 /* DesignOne.swift */; };
 		E2638DAA22BF642900962EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2638DA922BF642900962EF6 /* Assets.xcassets */; };
 		E2638DAC22C0CA9E00962EF6 /* DesignThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2638DAB22C0CA9E00962EF6 /* DesignThree.swift */; };
+		E272292623BA98F6000634D4 /* DesignFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = E272292523BA98F6000634D4 /* DesignFive.swift */; };
+		E272292823BB4D78000634D4 /* DesignSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = E272292723BB4D78000634D4 /* DesignSix.swift */; };
+		E272292D23BB5F7F000634D4 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E272292C23BB5F7F000634D4 /* CustomTextField.swift */; };
+		E272292F23BB5FB4000634D4 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E272292E23BB5FB4000634D4 /* CustomSecureField.swift */; };
 		E27C860522BE1A4D0059D51F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C860422BE1A4D0059D51F /* AppDelegate.swift */; };
 		E27C860722BE1A4D0059D51F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C860622BE1A4D0059D51F /* SceneDelegate.swift */; };
 		E27C860922BE1A4D0059D51F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27C860822BE1A4D0059D51F /* Home.swift */; };
@@ -47,11 +50,14 @@
 		E20ACEB722BE4AF000F39ED7 /* WorkSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Bold.otf"; sourceTree = "<group>"; };
 		E20ACEB822BE4AF000F39ED7 /* MavenPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Bold.ttf"; sourceTree = "<group>"; };
 		E20ACEB922BE4AF000F39ED7 /* MavenPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Medium.ttf"; sourceTree = "<group>"; };
-		E23E07EB22BE95AE00D55061 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E23E07ED22BEB63E00D55061 /* DesignTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTwo.swift; sourceTree = "<group>"; };
 		E23E07EF22BEB6D400D55061 /* DesignOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignOne.swift; sourceTree = "<group>"; };
 		E2638DA922BF642900962EF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2638DAB22C0CA9E00962EF6 /* DesignThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignThree.swift; sourceTree = "<group>"; };
+		E272292523BA98F6000634D4 /* DesignFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignFive.swift; sourceTree = "<group>"; };
+		E272292723BB4D78000634D4 /* DesignSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSix.swift; sourceTree = "<group>"; };
+		E272292C23BB5F7F000634D4 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		E272292E23BB5FB4000634D4 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		E27C860122BE1A4D0059D51F /* SwiftUISignin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISignin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27C860422BE1A4D0059D51F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E27C860622BE1A4D0059D51F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,16 +89,20 @@
 				E23E07ED22BEB63E00D55061 /* DesignTwo.swift */,
 				E2638DAB22C0CA9E00962EF6 /* DesignThree.swift */,
 				E2C1F4D623BA634900D010C2 /* DesignFour.swift */,
+				E272292523BA98F6000634D4 /* DesignFive.swift */,
+				E272292723BB4D78000634D4 /* DesignSix.swift */,
+				E272292B23BB5F56000634D4 /* Componets */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		E23E07F222BEB74100D55061 /* Model */ = {
+		E272292B23BB5F56000634D4 /* Componets */ = {
 			isa = PBXGroup;
 			children = (
-				E23E07EB22BE95AE00D55061 /* User.swift */,
+				E272292C23BB5F7F000634D4 /* CustomTextField.swift */,
+				E272292E23BB5FB4000634D4 /* CustomSecureField.swift */,
 			);
-			path = Model;
+			path = Componets;
 			sourceTree = "<group>";
 		};
 		E27C85F822BE1A4D0059D51F = {
@@ -117,7 +127,6 @@
 				E27C860422BE1A4D0059D51F /* AppDelegate.swift */,
 				E27C860622BE1A4D0059D51F /* SceneDelegate.swift */,
 				E23E07F122BEB71A00D55061 /* View */,
-				E23E07F222BEB74100D55061 /* Model */,
 				E27C861E22BE33750059D51F /* Font */,
 				E2638DA922BF642900962EF6 /* Assets.xcassets */,
 				E27C860F22BE1A4F0059D51F /* LaunchScreen.storyboard */,
@@ -241,9 +250,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E23E07EC22BE95AE00D55061 /* User.swift in Sources */,
+				E272292D23BB5F7F000634D4 /* CustomTextField.swift in Sources */,
 				E23E07EE22BEB63E00D55061 /* DesignTwo.swift in Sources */,
+				E272292823BB4D78000634D4 /* DesignSix.swift in Sources */,
+				E272292F23BB5FB4000634D4 /* CustomSecureField.swift in Sources */,
 				E23E07F022BEB6D400D55061 /* DesignOne.swift in Sources */,
+				E272292623BA98F6000634D4 /* DesignFive.swift in Sources */,
 				E27C860522BE1A4D0059D51F /* AppDelegate.swift in Sources */,
 				E27C860722BE1A4D0059D51F /* SceneDelegate.swift in Sources */,
 				E27C860922BE1A4D0059D51F /* Home.swift in Sources */,
@@ -394,7 +406,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.gbrigens.SwiftUISignin;
+				PRODUCT_BUNDLE_IDENTIFIER = me.gbrigens.Signin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -415,7 +427,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.gbrigens.SwiftUISignin;
+				PRODUCT_BUNDLE_IDENTIFIER = me.gbrigens.Signin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

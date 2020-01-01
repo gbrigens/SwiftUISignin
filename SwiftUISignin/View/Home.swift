@@ -10,14 +10,18 @@ import SwiftUI
 
 struct Home : View {
     var body: some View {
-        DesignThree()
+        DesignOne()
+//        DesignTwo()
+//        DesignThree()
+//        DesignFour()
+//        DesignFive()
+//        DesignSix()
     }
 }
 #if DEBUG
-let userData = User()
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
-        Home().environmentObject(userData)
+        Home()
     }
 }
 #endif

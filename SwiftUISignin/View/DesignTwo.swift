@@ -9,16 +9,82 @@
 import SwiftUI
 
 struct DesignTwo : View {
+    //MARK: - Properties
+    @State private var username = ""
+    @State private var password = ""
     var body: some View {
-        VStack{
-            Spacer()
-            Image("designTwoLogo")
-            Spacer()
-            DesignTwoFormView()
-            Spacer()
-            FooterView()
+        ZStack{
+            //Background
+            Image("designTwoBg")
+            
+            VStack(alignment: .center, spacing: 0){
+                Spacer()
+                //Logo
+                Image("designTwoLogo")
+                    .resizable()
+                    .frame(width: 90, height: 90, alignment: .center)
+                    .padding(.top,30)
+                Spacer()
+                
+                //Form
+                VStack(alignment: .center, spacing: 30) {
+                    VStack(alignment: .center, spacing: 10) {
+                        VStack(alignment: .center, spacing: 30){
+                            VStack(alignment: .center) {
+                                CustomTextField(
+                                    placeholder: Text("Username").foregroundColor(Color.white),
+                                    username: $username)
+                                Divider()
+                                    .background(Color.white)
+                            }
+                            VStack(alignment: .leading) {
+                                CustomSecureField(
+                                    placeholder: Text("Password").foregroundColor(Color.white),
+                                    password: $password)
+                                Divider()
+                                    .background(Color.white)
+                            }
+                        }
+                        HStack {
+                            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                                Text("Request new password.")
+                                    .foregroundColor(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.5)))
+                            }
+                            Spacer()
+                        }
+                    }
+                    .padding(.horizontal,38)
+                    
+                    // Button
+                    
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                        Text("LOGIN")
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.black)
+                            .frame(width:295,height: 60)
+                            .background(Color.white)
+                            .cornerRadius(10)
+                        
+                    }
+                }
+                Spacer()
+                //Footer
+                VStack(alignment: .center, spacing: 15) {
+                    Text("Need an account?")
+                        .foregroundColor(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.5)))
+                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                        Text("SIGN UP")
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.white)
+                            .frame(width:215,height: 60)
+                        .background(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.15)))
+                        .cornerRadius(10)
+                    }
+                }
+                Spacer()
+            }
         }
-        .background(Image("designTwoBg").resizable()).edgesIgnoringSafeArea(.all)
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
@@ -26,57 +92,8 @@ struct DesignTwo : View {
 #if DEBUG
 struct DesignTwo_Previews : PreviewProvider {
     static var previews: some View {
-        DesignTwo().environmentObject(userData)
+        DesignTwo()
     }
 }
 #endif
 
-struct FooterView : View {
-    var body: some View {
-        VStack {
-            Text("Need an account?")
-                .font(.custom("OpenSans-Regular", size: 16))
-                .foregroundColor(Color(red: 255/255, green: 255/255, blue: 255/255, opacity: 0.3))
-                .padding(.bottom,30)
-            Button(action: {
-                print("signup pressed")
-            }) {
-                Text("SIGN UP")
-                    .font(Font.custom("OpenSans-Bold", size: 14))
-                    .foregroundColor(.white)
-                    .background(Rectangle().frame(width:215,height: 60).cornerRadius(10).accentColor(Color(red: 255/255, green: 255/255, blue: 255/255, opacity: 0.1)))
-            }
-        }.padding(.bottom, 50)
-    }
-}
-
-struct DesignTwoFormView : View {
-    @EnvironmentObject var user: User
-    var body: some View {
-        VStack{
-            TextField("Username", text: $user.userName).font(.custom("RobotoSlab-light", size: 18)).foregroundColor(Color.white)
-            Rectangle().frame(height:1).foregroundColor(Color.white).padding(.bottom,20)
-            SecureField("Password", text: $user.password).font(.custom("RobotoSlab-light", size: 18)).foregroundColor(Color.white)
-            Rectangle().frame(height:1).foregroundColor(Color.white)
-            HStack {
-                Button(action: {
-                    print("Forgot pressed")
-                }) {
-                    Text("Request new password").font(.custom("OpenSans-Regular", size: 14))
-                        .fontWeight(.light)
-                        .foregroundColor(Color(red: 255/255, green: 255/255, blue: 255/255, opacity: 0.3))
-                }
-                Spacer()
-            }
-            Button(action: {
-                print("You've entered  for username \(self.user.userName) and \(self.user.password) for password")
-            }) {
-                Text("LOGIN")
-                    .font(.custom("OpenSans-Bold", size: 14))
-                    .foregroundColor(.black)
-                    .background(Rectangle().frame(width:295,height: 60).cornerRadius(10).accentColor(Color.white))
-            }.padding(.top,40)
-        }
-        .padding(.horizontal, 56.0)
-    }
-}
