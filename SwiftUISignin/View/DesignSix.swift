@@ -10,8 +10,17 @@ import SwiftUI
 
 struct DesignSix: View {
     
+    //MARK:- Properties
+    @ObservedObject var keyboardHandler: KeyboardFollower
+    
     @State var username = ""
     @State var password = ""
+    
+    
+    init(keyboardHandler: KeyboardFollower) {
+      self.keyboardHandler = keyboardHandler
+    }
+    
     var body: some View {
         ZStack{
             Image("designSixBg")
@@ -59,7 +68,7 @@ struct DesignSix: View {
                             //                            print("Username:\(self.$user), Password: \(self.$password)")
                         }) {
                             Text("SIGN IN")
-                                .fontWeight(.medium) .foregroundColor(Color.black)
+                                .scaledFont(name: "NunitoSans-Bold", size: 16) .foregroundColor(Color.black)
                                 .frame(width:300,height:60)
                                 .background(Color.white)
                         }
@@ -68,11 +77,12 @@ struct DesignSix: View {
                         //                        print("Username:\(self.user.userName), Password: \(self.user.password)")
                     }) {
                         Text("Forgot Password?")
-                            .fontWeight(.regular)
+                            .scaledFont(name: "NunitoSans-Regular", size: 16)
                             .foregroundColor(Color.white)
                     }
                     .padding(.bottom,30)
                 }
+                .padding(.bottom,keyboardHandler.keyboardHeight)
             }
         }
         .edgesIgnoringSafeArea(.all)
@@ -81,6 +91,6 @@ struct DesignSix: View {
 
 struct DesignSix_Previews: PreviewProvider {
     static var previews: some View {
-        DesignSix()
+        DesignSix(keyboardHandler: KeyboardFollower())
     }
 }

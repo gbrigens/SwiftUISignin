@@ -19,6 +19,8 @@
 		E20ACEC322BE4AF000F39ED7 /* WorkSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E20ACEB722BE4AF000F39ED7 /* WorkSans-Bold.otf */; };
 		E20ACEC422BE4AF000F39ED7 /* MavenPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20ACEB822BE4AF000F39ED7 /* MavenPro-Bold.ttf */; };
 		E20ACEC522BE4AF000F39ED7 /* MavenPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E20ACEB922BE4AF000F39ED7 /* MavenPro-Medium.ttf */; };
+		E23B567923BD8C5600F5E0BB /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B567823BD8C5600F5E0BB /* CustomFonts.swift */; };
+		E23B567D23BE0B5A00F5E0BB /* KeboardFollower.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B567C23BE0B5A00F5E0BB /* KeboardFollower.swift */; };
 		E23E07EE22BEB63E00D55061 /* DesignTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E07ED22BEB63E00D55061 /* DesignTwo.swift */; };
 		E23E07F022BEB6D400D55061 /* DesignOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E07EF22BEB6D400D55061 /* DesignOne.swift */; };
 		E2638DAA22BF642900962EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2638DA922BF642900962EF6 /* Assets.xcassets */; };
@@ -50,6 +52,8 @@
 		E20ACEB722BE4AF000F39ED7 /* WorkSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Bold.otf"; sourceTree = "<group>"; };
 		E20ACEB822BE4AF000F39ED7 /* MavenPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Bold.ttf"; sourceTree = "<group>"; };
 		E20ACEB922BE4AF000F39ED7 /* MavenPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Medium.ttf"; sourceTree = "<group>"; };
+		E23B567823BD8C5600F5E0BB /* CustomFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
+		E23B567C23BE0B5A00F5E0BB /* KeboardFollower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeboardFollower.swift; sourceTree = "<group>"; };
 		E23E07ED22BEB63E00D55061 /* DesignTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTwo.swift; sourceTree = "<group>"; };
 		E23E07EF22BEB6D400D55061 /* DesignOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignOne.swift; sourceTree = "<group>"; };
 		E2638DA922BF642900962EF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,6 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E23B567A23BD97D300F5E0BB /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				E23B567823BD8C5600F5E0BB /* CustomFonts.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		E23B567B23BE0B3E00F5E0BB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E23B567C23BE0B5A00F5E0BB /* KeboardFollower.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		E23E07F122BEB71A00D55061 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +112,7 @@
 				E272292523BA98F6000634D4 /* DesignFive.swift */,
 				E272292723BB4D78000634D4 /* DesignSix.swift */,
 				E272292B23BB5F56000634D4 /* Componets */,
+				E23B567A23BD97D300F5E0BB /* Modifiers */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -124,6 +145,7 @@
 		E27C860322BE1A4D0059D51F /* SwiftUISignin */ = {
 			isa = PBXGroup;
 			children = (
+				E23B567B23BE0B3E00F5E0BB /* Helper */,
 				E27C860422BE1A4D0059D51F /* AppDelegate.swift */,
 				E27C860622BE1A4D0059D51F /* SceneDelegate.swift */,
 				E23E07F122BEB71A00D55061 /* View */,
@@ -252,6 +274,7 @@
 			files = (
 				E272292D23BB5F7F000634D4 /* CustomTextField.swift in Sources */,
 				E23E07EE22BEB63E00D55061 /* DesignTwo.swift in Sources */,
+				E23B567D23BE0B5A00F5E0BB /* KeboardFollower.swift in Sources */,
 				E272292823BB4D78000634D4 /* DesignSix.swift in Sources */,
 				E272292F23BB5FB4000634D4 /* CustomSecureField.swift in Sources */,
 				E23E07F022BEB6D400D55061 /* DesignOne.swift in Sources */,
@@ -259,6 +282,7 @@
 				E27C860522BE1A4D0059D51F /* AppDelegate.swift in Sources */,
 				E27C860722BE1A4D0059D51F /* SceneDelegate.swift in Sources */,
 				E27C860922BE1A4D0059D51F /* Home.swift in Sources */,
+				E23B567923BD8C5600F5E0BB /* CustomFonts.swift in Sources */,
 				E2638DAC22C0CA9E00962EF6 /* DesignThree.swift in Sources */,
 				E2C1F4D723BA634900D010C2 /* DesignFour.swift in Sources */,
 			);
@@ -406,6 +430,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.gbrigens.Signin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -427,6 +452,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.gbrigens.Signin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

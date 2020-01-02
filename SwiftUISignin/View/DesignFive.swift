@@ -10,8 +10,14 @@ import SwiftUI
 
 struct DesignFive: View {
     //MARK: - Properties
+    @ObservedObject var keyboardHandler: KeyboardFollower
+    
     @State private var username = ""
     @State private var password = ""
+    
+    init(keyboardHandler: KeyboardFollower) {
+        self.keyboardHandler = keyboardHandler
+    }
     
     var body: some View {
         ZStack{
@@ -23,7 +29,7 @@ struct DesignFive: View {
                     .padding(.top,60)
                 Spacer()
                 // Form
-                VStack (alignment: .center, spacing: 20) {
+                VStack (alignment: .center, spacing: 15) {
                     VStack(alignment: .center, spacing: 5) {
                         VStack(alignment: .center, spacing: 20){
                             CustomTextField(
@@ -42,27 +48,28 @@ struct DesignFive: View {
                         .padding(.horizontal,40)
                         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                             Text("Forgot Password?")
+                                .scaledFont(name: "Oxygen-Regular", size: 18)
                                 .foregroundColor(Color.white)
                         }
                     }
                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                         Text("LOGIN")
-                            .fontWeight(.bold)
+                            .scaledFont(name: "Oxygen-Bold", size: 18)
                             .foregroundColor(Color(#colorLiteral(red: 0, green: 0.6196078431, blue: 0.9333333333, alpha: 1)))
                             .frame(width:300,height: 60)
                             .background(Color.white)
                             .cornerRadius(10)
                     }
                 }
-                // Footer
+                .padding(.bottom,keyboardHandler.keyboardHeight)
                 Spacer()
-                    .frame(height:90)
+                // Footer
                 VStack(alignment: .center, spacing: 8){
-                    Text("Don't have an")
-                    Text("account?")
+                    Text("Don't have an account?")
+                        .scaledFont(name: "Oxygen-Regular", size: 18)
                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                         Text("Sign Up")
-                            .fontWeight(.bold)
+                            .scaledFont(name: "Oxygen-Bold", size: 18)
                     }
                 }
                 .foregroundColor(Color.white)
@@ -86,6 +93,6 @@ struct CustomTextFieldBorders: ViewModifier {
 
 struct DesignFive_Previews: PreviewProvider {
     static var previews: some View {
-        DesignFive()
+        DesignFive(keyboardHandler: KeyboardFollower())
     }
 }

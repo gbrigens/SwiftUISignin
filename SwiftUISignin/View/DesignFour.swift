@@ -9,6 +9,13 @@
 import SwiftUI
 
 struct DesignFour: View {
+    //MARK: - Properties
+    @ObservedObject var keyboardHandler: KeyboardFollower
+    
+    init(keyboardHandler: KeyboardFollower) {
+        self.keyboardHandler = keyboardHandler
+    }
+    
     var body: some View {
         ZStack{
             //Background Image
@@ -34,6 +41,7 @@ struct DesignFour: View {
                 //Card
                 signUpCard()
                 
+                
                 //Sign-Up
                 Spacer()
                 
@@ -51,6 +59,7 @@ struct DesignFour: View {
                 .padding(.top,0)
                 Spacer()
             }
+            .padding(.bottom,keyboardHandler.keyboardHeight)
         }
     }
 }
@@ -66,7 +75,7 @@ struct textFieldModifier: ViewModifier {
 
 struct DesignFourNew_Previews: PreviewProvider {
     static var previews: some View {
-        DesignFour()
+        DesignFour(keyboardHandler: KeyboardFollower())
     }
 }
 
@@ -74,7 +83,7 @@ struct signUpCard: View {
     //MARK: - Properties
     @State private var username = ""
     @State private var password = ""
-    
+
     var body: some View {
         VStack(alignment: .center, spacing: 0){
             VStack(alignment: .center, spacing: 15){

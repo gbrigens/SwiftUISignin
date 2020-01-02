@@ -19,13 +19,11 @@ struct DesignOne: View {
             Spacer()
             VStack{
                 Text("Hello There!")
-                    .font(.system(.largeTitle, design: .serif))
-                    .fontWeight(.heavy)
+                .scaledFont(name: "RobotoSlab-Bold", size: 34)
                     .foregroundColor(Color(#colorLiteral(red: 0.8196078431, green: 0.1176470588, blue: 0.2823529412, alpha: 1)))
                 Text("Please sign in to continue.")
-                    .font(.system(.headline, design: .serif))
+                .scaledFont(name: "RobotoSlab-Light", size: 18)
                     .foregroundColor(Color.primary)
-                    .fontWeight(.medium)
                 
             }
             Spacer()
@@ -35,7 +33,8 @@ struct DesignOne: View {
                     VStack(alignment: .center, spacing: 30){
                         VStack(alignment: .center) {
                             CustomTextField(
-                                placeholder: Text("Username").foregroundColor(Color.gray),
+                                placeholder: Text("Username")
+                                    .foregroundColor(Color.gray),
                                 username: $username)
                             Divider()
                                 .background(Color.gray)
@@ -52,6 +51,7 @@ struct DesignOne: View {
                         Spacer()
                         Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                             Text("Forgot Pass?")
+                                .scaledFont(name: "RobotoSlab-Light", size: 14)
                                 .foregroundColor(Color.gray)
                         }
                     }
@@ -75,6 +75,7 @@ struct DesignOne: View {
             Spacer()
             Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                 Text("Sign up, if you’re new!")
+                    .scaledFont(name: "RobotoSlab-Light", size: 18)
                     .foregroundColor(Color.primary)
             }
             .padding(.bottom,40)

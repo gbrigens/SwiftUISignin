@@ -18,27 +18,26 @@ struct DesignThree : View {
             VStack(alignment: .center, spacing:30) {
                 VStack(alignment: .center, spacing: 0) {
                     Text("Welcome Back")
-                        .font(.system(size: 40))
-                        .fontWeight(.bold)
+                        .scaledFont(name: "WorkSans-Black", size: 34)
                     Image("designThreeWave")
                 }
                 
                 VStack(alignment: .center, spacing: 40) {
                     Text("Login with Facebook")
+                    .scaledFont(name: "WorkSans-Bold", size: 16)
                         .foregroundColor(Color.white)
-                        .fontWeight(.bold)
                         .padding(.leading,20)
                         .frame(width: 315, height: 56, alignment: .leading)
                         .background(Color(#colorLiteral(red: 0.2588235294, green: 0.3294117647, blue: 0.5607843137, alpha: 1)))
                         .clipShape(Capsule())
                     
                     Text("Or")
-                        .fontWeight(.regular)
+                        .scaledFont(name: "WorkSans-Regular", size: 16)
                         .foregroundColor(Color.gray)
                 }
             }
             .padding(.top,40)
-            .padding(.bottom,40)
+            .padding(.bottom,30)
             
             
             //Form
@@ -70,7 +69,7 @@ struct DesignThree : View {
                         print("Email: \(self.$username) Password: \(self.password)")
                     }) {
                         Text("Login")
-                            .fontWeight(.bold)
+                            .scaledFont(name: "WorkSans-Bold", size: 16)
                             .padding(.leading,20)
                             .foregroundColor(Color.primary)
                             .frame(width: 315, height: 56, alignment: .leading).overlay(
@@ -83,8 +82,7 @@ struct DesignThree : View {
                     
                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                         Text("Forgotten your password?")
-                            .fontWeight(.regular)
-                            .foregroundColor(Color.gray)
+                            .scaledFont(name: "WorkSans-Regular", size: 14)                  .foregroundColor(Color.gray)
                     }
                 }
             }
@@ -93,11 +91,11 @@ struct DesignThree : View {
             Spacer()
             HStack{
                 Text("Haven’t registered yet?")
-                    .fontWeight(.regular)
+                    .scaledFont(name: "WorkSans-Regular", size: 18)
                     .foregroundColor(.gray)
                 Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                     Text("Join now.")
-                        .fontWeight(.bold)
+                        .scaledFont(name: "WorkSans-Bold", size: 18)
                         .foregroundColor(Color.primary)
                 }
             }

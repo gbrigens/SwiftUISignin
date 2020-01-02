@@ -48,6 +48,7 @@ struct DesignTwo : View {
                         HStack {
                             Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                                 Text("Request new password.")
+                                    .scaledFont(name: "WorkSans-Regular", size: 14)
                                     .foregroundColor(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.5)))
                             }
                             Spacer()
@@ -59,7 +60,7 @@ struct DesignTwo : View {
                     
                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                         Text("LOGIN")
-                            .fontWeight(.bold)
+                        .scaledFont(name: "OpenSans-Bold", size: 14)
                             .foregroundColor(Color.black)
                             .frame(width:295,height: 60)
                             .background(Color.white)
@@ -71,10 +72,11 @@ struct DesignTwo : View {
                 //Footer
                 VStack(alignment: .center, spacing: 15) {
                     Text("Need an account?")
+                        .scaledFont(name: "WorkSans-Regular", size: 14)
                         .foregroundColor(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.5)))
                     Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
                         Text("SIGN UP")
-                            .fontWeight(.bold)
+                            .scaledFont(name: "OpenSans-Bold", size: 14)
                             .foregroundColor(Color.white)
                             .frame(width:215,height: 60)
                         .background(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.15)))
