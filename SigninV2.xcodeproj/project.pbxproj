@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		336B791D2521081600A6E1B1 /* SigninV2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B791C2521081600A6E1B1 /* SigninV2App.swift */; };
+		336B791F2521081600A6E1B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B791E2521081600A6E1B1 /* ContentView.swift */; };
+		336B794F25210A5600A6E1B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336B79232521081A00A6E1B1 /* Preview Assets.xcassets */; };
+		336B795925210AD800A6E1B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336B79202521081A00A6E1B1 /* Assets.xcassets */; };
+		336B797D25210CEF00A6E1B1 /* ScreenOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B797C25210CEF00A6E1B1 /* ScreenOne.swift */; };
+		336B797F252112CD00A6E1B1 /* MavenPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 336B7938252108A100A6E1B1 /* MavenPro-Bold.ttf */; };
+		336B7980252112CD00A6E1B1 /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 336B7931252108A100A6E1B1 /* NunitoSans-Regular.ttf */; };
+		336B7981252112CD00A6E1B1 /* MavenPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 336B7934252108A100A6E1B1 /* MavenPro-Medium.ttf */; };
+		336B7982252112CD00A6E1B1 /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 336B7930252108A100A6E1B1 /* NunitoSans-Bold.ttf */; };
+		336B7983252112CD00A6E1B1 /* WorkSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 336B7936252108A100A6E1B1 /* WorkSans-Regular.otf */; };
+		336B7984252112CD00A6E1B1 /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 336B792F252108A100A6E1B1 /* RobotoSlab-Bold.ttf */; };
+		336B7985252112CD00A6E1B1 /* WorkSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 336B793C252108A100A6E1B1 /* WorkSans-Bold.otf */; };
+		336B7986252112CD00A6E1B1 /* Oxygen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 336B7933252108A100A6E1B1 /* Oxygen-Regular.ttf */; };
+		336B7987252112CD00A6E1B1 /* MavenPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 336B7932252108A100A6E1B1 /* MavenPro-Regular.ttf */; };
+		336B7988252112CD00A6E1B1 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 336B793A252108A100A6E1B1 /* OpenSans-Bold.ttf */; };
+		336B7989252112CD00A6E1B1 /* Oxygen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 336B793B252108A100A6E1B1 /* Oxygen-Bold.ttf */; };
+		336B798A252112CD00A6E1B1 /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 336B7937252108A100A6E1B1 /* RobotoSlab-Light.ttf */; };
+		336B798B252112CD00A6E1B1 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 336B7939252108A100A6E1B1 /* OpenSans-Regular.ttf */; };
+		336B798C252112CD00A6E1B1 /* WorkSans-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 336B7935252108A100A6E1B1 /* WorkSans-Black.otf */; };
+		336B79902521190900A6E1B1 /* CustomTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B798F2521190900A6E1B1 /* CustomTextfield.swift */; };
+		336B799325211A2400A6E1B1 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B799225211A2400A6E1B1 /* CustomSecureField.swift */; };
+		336B79A6252128E300A6E1B1 /* ScreenTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B79A5252128E300A6E1B1 /* ScreenTwo.swift */; };
+		336B79AE2521369100A6E1B1 /* ScreenThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B79AD2521369100A6E1B1 /* ScreenThree.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		336B79192521081600A6E1B1 /* SigninV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SigninV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		336B791C2521081600A6E1B1 /* SigninV2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninV2App.swift; sourceTree = "<group>"; };
+		336B791E2521081600A6E1B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		336B79202521081A00A6E1B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		336B79232521081A00A6E1B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		336B79252521081A00A6E1B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336B792F252108A100A6E1B1 /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
+		336B7930252108A100A6E1B1 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		336B7931252108A100A6E1B1 /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		336B7932252108A100A6E1B1 /* MavenPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Regular.ttf"; sourceTree = "<group>"; };
+		336B7933252108A100A6E1B1 /* Oxygen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Regular.ttf"; sourceTree = "<group>"; };
+		336B7934252108A100A6E1B1 /* MavenPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Medium.ttf"; sourceTree = "<group>"; };
+		336B7935252108A100A6E1B1 /* WorkSans-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Black.otf"; sourceTree = "<group>"; };
+		336B7936252108A100A6E1B1 /* WorkSans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Regular.otf"; sourceTree = "<group>"; };
+		336B7937252108A100A6E1B1 /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
+		336B7938252108A100A6E1B1 /* MavenPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Bold.ttf"; sourceTree = "<group>"; };
+		336B7939252108A100A6E1B1 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		336B793A252108A100A6E1B1 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		336B793B252108A100A6E1B1 /* Oxygen-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Bold.ttf"; sourceTree = "<group>"; };
+		336B793C252108A100A6E1B1 /* WorkSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Bold.otf"; sourceTree = "<group>"; };
+		336B797C25210CEF00A6E1B1 /* ScreenOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenOne.swift; sourceTree = "<group>"; };
+		336B798F2521190900A6E1B1 /* CustomTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextfield.swift; sourceTree = "<group>"; };
+		336B799225211A2400A6E1B1 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		336B79A5252128E300A6E1B1 /* ScreenTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTwo.swift; sourceTree = "<group>"; };
+		336B79AD2521369100A6E1B1 /* ScreenThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenThree.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		336B79162521081600A6E1B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		336B79102521081600A6E1B1 = {
+			isa = PBXGroup;
+			children = (
+				336B791B2521081600A6E1B1 /* SigninV2 */,
+				336B791A2521081600A6E1B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		336B791A2521081600A6E1B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				336B79192521081600A6E1B1 /* SigninV2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		336B791B2521081600A6E1B1 /* SigninV2 */ = {
+			isa = PBXGroup;
+			children = (
+				336B792C2521082E00A6E1B1 /* App */,
+				336B793D252108AC00A6E1B1 /* Fonts */,
+				336B792D2521084400A6E1B1 /* View */,
+				336B79222521081A00A6E1B1 /* Preview Content */,
+				336B79252521081A00A6E1B1 /* Info.plist */,
+			);
+			path = SigninV2;
+			sourceTree = "<group>";
+		};
+		336B79222521081A00A6E1B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				336B79232521081A00A6E1B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		336B792C2521082E00A6E1B1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				336B791C2521081600A6E1B1 /* SigninV2App.swift */,
+				336B79202521081A00A6E1B1 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		336B792D2521084400A6E1B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				336B791E2521081600A6E1B1 /* ContentView.swift */,
+				336B797C25210CEF00A6E1B1 /* ScreenOne.swift */,
+				336B79A5252128E300A6E1B1 /* ScreenTwo.swift */,
+				336B79AD2521369100A6E1B1 /* ScreenThree.swift */,
+				336B792E2521085000A6E1B1 /* Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		336B792E2521085000A6E1B1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				336B798F2521190900A6E1B1 /* CustomTextfield.swift */,
+				336B799225211A2400A6E1B1 /* CustomSecureField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		336B793D252108AC00A6E1B1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				336B7938252108A100A6E1B1 /* MavenPro-Bold.ttf */,
+				336B7934252108A100A6E1B1 /* MavenPro-Medium.ttf */,
+				336B7932252108A100A6E1B1 /* MavenPro-Regular.ttf */,
+				336B7930252108A100A6E1B1 /* NunitoSans-Bold.ttf */,
+				336B7931252108A100A6E1B1 /* NunitoSans-Regular.ttf */,
+				336B793A252108A100A6E1B1 /* OpenSans-Bold.ttf */,
+				336B7939252108A100A6E1B1 /* OpenSans-Regular.ttf */,
+				336B793B252108A100A6E1B1 /* Oxygen-Bold.ttf */,
+				336B7933252108A100A6E1B1 /* Oxygen-Regular.ttf */,
+				336B792F252108A100A6E1B1 /* RobotoSlab-Bold.ttf */,
+				336B7937252108A100A6E1B1 /* RobotoSlab-Light.ttf */,
+				336B7935252108A100A6E1B1 /* WorkSans-Black.otf */,
+				336B793C252108A100A6E1B1 /* WorkSans-Bold.otf */,
+				336B7936252108A100A6E1B1 /* WorkSans-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		336B79182521081600A6E1B1 /* SigninV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 336B79282521081B00A6E1B1 /* Build configuration list for PBXNativeTarget "SigninV2" */;
+			buildPhases = (
+				336B79152521081600A6E1B1 /* Sources */,
+				336B79162521081600A6E1B1 /* Frameworks */,
+				336B79172521081600A6E1B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SigninV2;
+			productName = SigninV2;
+			productReference = 336B79192521081600A6E1B1 /* SigninV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		336B79112521081600A6E1B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					336B79182521081600A6E1B1 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 336B79142521081600A6E1B1 /* Build configuration list for PBXProject "SigninV2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 336B79102521081600A6E1B1;
+			productRefGroup = 336B791A2521081600A6E1B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				336B79182521081600A6E1B1 /* SigninV2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		336B79172521081600A6E1B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336B797F252112CD00A6E1B1 /* MavenPro-Bold.ttf in Resources */,
+				336B795925210AD800A6E1B1 /* Assets.xcassets in Resources */,
+				336B7988252112CD00A6E1B1 /* OpenSans-Bold.ttf in Resources */,
+				336B7989252112CD00A6E1B1 /* Oxygen-Bold.ttf in Resources */,
+				336B794F25210A5600A6E1B1 /* Preview Assets.xcassets in Resources */,
+				336B7987252112CD00A6E1B1 /* MavenPro-Regular.ttf in Resources */,
+				336B7986252112CD00A6E1B1 /* Oxygen-Regular.ttf in Resources */,
+				336B7982252112CD00A6E1B1 /* NunitoSans-Bold.ttf in Resources */,
+				336B798A252112CD00A6E1B1 /* RobotoSlab-Light.ttf in Resources */,
+				336B7984252112CD00A6E1B1 /* RobotoSlab-Bold.ttf in Resources */,
+				336B798B252112CD00A6E1B1 /* OpenSans-Regular.ttf in Resources */,
+				336B798C252112CD00A6E1B1 /* WorkSans-Black.otf in Resources */,
+				336B7983252112CD00A6E1B1 /* WorkSans-Regular.otf in Resources */,
+				336B7980252112CD00A6E1B1 /* NunitoSans-Regular.ttf in Resources */,
+				336B7981252112CD00A6E1B1 /* MavenPro-Medium.ttf in Resources */,
+				336B7985252112CD00A6E1B1 /* WorkSans-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		336B79152521081600A6E1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336B79902521190900A6E1B1 /* CustomTextfield.swift in Sources */,
+				336B797D25210CEF00A6E1B1 /* ScreenOne.swift in Sources */,
+				336B799325211A2400A6E1B1 /* CustomSecureField.swift in Sources */,
+				336B791F2521081600A6E1B1 /* ContentView.swift in Sources */,
+				336B79AE2521369100A6E1B1 /* ScreenThree.swift in Sources */,
+				336B79A6252128E300A6E1B1 /* ScreenTwo.swift in Sources */,
+				336B791D2521081600A6E1B1 /* SigninV2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		336B79262521081B00A6E1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		336B79272521081B00A6E1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		336B79292521081B00A6E1B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SigninV2/Preview Content\"";
+				DEVELOPMENT_TEAM = L98JME3U72;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SigninV2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gbrigens.me.SigninV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		336B792A2521081B00A6E1B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SigninV2/Preview Content\"";
+				DEVELOPMENT_TEAM = L98JME3U72;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SigninV2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gbrigens.me.SigninV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		336B79142521081600A6E1B1 /* Build configuration list for PBXProject "SigninV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336B79262521081B00A6E1B1 /* Debug */,
+				336B79272521081B00A6E1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		336B79282521081B00A6E1B1 /* Build configuration list for PBXNativeTarget "SigninV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336B79292521081B00A6E1B1 /* Debug */,
+				336B792A2521081B00A6E1B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 336B79112521081600A6E1B1 /* Project object */;
+}
