@@ -21,7 +21,7 @@ struct CustomTextfield: View {
     var body: some View {
         ZStack(alignment: .leading) {
             if username.isEmpty { placeholder.modifier(CustomTextM(fontName: fontName, fontSize: fontSize, fontColor: fontColor)) }
-            TextField("", text: $username, onEditingChanged: editingChanged, onCommit: commit).foregroundColor(Color.white)
+            TextField("", text: $username, onEditingChanged: editingChanged, onCommit: commit).foregroundColor(Color.primary)
         }
     }
 }
