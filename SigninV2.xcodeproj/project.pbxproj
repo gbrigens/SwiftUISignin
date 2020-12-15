@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33226E77258901CC00534B0A /* ScreenFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33226E76258901CC00534B0A /* ScreenFour.swift */; };
+		33226E7C258914FF00534B0A /* MavenPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33226E7B258914FF00534B0A /* MavenPro-Regular.ttf */; };
 		336B791D2521081600A6E1B1 /* SigninV2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B791C2521081600A6E1B1 /* SigninV2App.swift */; };
 		336B791F2521081600A6E1B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B791E2521081600A6E1B1 /* ContentView.swift */; };
 		336B794F25210A5600A6E1B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336B79232521081A00A6E1B1 /* Preview Assets.xcassets */; };
@@ -20,7 +22,6 @@
 		336B7984252112CD00A6E1B1 /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 336B792F252108A100A6E1B1 /* RobotoSlab-Bold.ttf */; };
 		336B7985252112CD00A6E1B1 /* WorkSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 336B793C252108A100A6E1B1 /* WorkSans-Bold.otf */; };
 		336B7986252112CD00A6E1B1 /* Oxygen-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 336B7933252108A100A6E1B1 /* Oxygen-Regular.ttf */; };
-		336B7987252112CD00A6E1B1 /* MavenPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 336B7932252108A100A6E1B1 /* MavenPro-Regular.ttf */; };
 		336B7988252112CD00A6E1B1 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 336B793A252108A100A6E1B1 /* OpenSans-Bold.ttf */; };
 		336B7989252112CD00A6E1B1 /* Oxygen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 336B793B252108A100A6E1B1 /* Oxygen-Bold.ttf */; };
 		336B798A252112CD00A6E1B1 /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 336B7937252108A100A6E1B1 /* RobotoSlab-Light.ttf */; };
@@ -33,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33226E76258901CC00534B0A /* ScreenFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenFour.swift; sourceTree = "<group>"; };
+		33226E7B258914FF00534B0A /* MavenPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Regular.ttf"; sourceTree = "<group>"; };
 		336B79192521081600A6E1B1 /* SigninV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SigninV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		336B791C2521081600A6E1B1 /* SigninV2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninV2App.swift; sourceTree = "<group>"; };
 		336B791E2521081600A6E1B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,7 +45,6 @@
 		336B792F252108A100A6E1B1 /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
 		336B7930252108A100A6E1B1 /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
 		336B7931252108A100A6E1B1 /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
-		336B7932252108A100A6E1B1 /* MavenPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Regular.ttf"; sourceTree = "<group>"; };
 		336B7933252108A100A6E1B1 /* Oxygen-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxygen-Regular.ttf"; sourceTree = "<group>"; };
 		336B7934252108A100A6E1B1 /* MavenPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Medium.ttf"; sourceTree = "<group>"; };
 		336B7935252108A100A6E1B1 /* WorkSans-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Black.otf"; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				336B79A5252128E300A6E1B1 /* ScreenTwo.swift */,
 				336B79AD2521369100A6E1B1 /* ScreenThree.swift */,
 				336B792E2521085000A6E1B1 /* Components */,
+				33226E76258901CC00534B0A /* ScreenFour.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -141,8 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				336B7938252108A100A6E1B1 /* MavenPro-Bold.ttf */,
+				33226E7B258914FF00534B0A /* MavenPro-Regular.ttf */,
 				336B7934252108A100A6E1B1 /* MavenPro-Medium.ttf */,
-				336B7932252108A100A6E1B1 /* MavenPro-Regular.ttf */,
 				336B7930252108A100A6E1B1 /* NunitoSans-Bold.ttf */,
 				336B7931252108A100A6E1B1 /* NunitoSans-Regular.ttf */,
 				336B793A252108A100A6E1B1 /* OpenSans-Bold.ttf */,
@@ -220,9 +223,9 @@
 				336B7988252112CD00A6E1B1 /* OpenSans-Bold.ttf in Resources */,
 				336B7989252112CD00A6E1B1 /* Oxygen-Bold.ttf in Resources */,
 				336B794F25210A5600A6E1B1 /* Preview Assets.xcassets in Resources */,
-				336B7987252112CD00A6E1B1 /* MavenPro-Regular.ttf in Resources */,
 				336B7986252112CD00A6E1B1 /* Oxygen-Regular.ttf in Resources */,
 				336B7982252112CD00A6E1B1 /* NunitoSans-Bold.ttf in Resources */,
+				33226E7C258914FF00534B0A /* MavenPro-Regular.ttf in Resources */,
 				336B798A252112CD00A6E1B1 /* RobotoSlab-Light.ttf in Resources */,
 				336B7984252112CD00A6E1B1 /* RobotoSlab-Bold.ttf in Resources */,
 				336B798B252112CD00A6E1B1 /* OpenSans-Regular.ttf in Resources */,
@@ -248,6 +251,7 @@
 				336B79AE2521369100A6E1B1 /* ScreenThree.swift in Sources */,
 				336B79A6252128E300A6E1B1 /* ScreenTwo.swift in Sources */,
 				336B791D2521081600A6E1B1 /* SigninV2App.swift in Sources */,
+				33226E77258901CC00534B0A /* ScreenFour.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

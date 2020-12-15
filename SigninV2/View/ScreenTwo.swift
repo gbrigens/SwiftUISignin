@@ -19,8 +19,8 @@ struct ScreenTwo: View {
             Image("Second-Bg")
                 .resizable()
                 .overlay(
-                 Rectangle()
-                    .foregroundColor(Color.black.opacity(0.65))
+                    Rectangle()
+                        .foregroundColor(Color.black.opacity(0.65))
                 )
                 .ignoresSafeArea(.all)
             

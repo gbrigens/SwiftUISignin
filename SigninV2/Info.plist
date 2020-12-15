@@ -25,16 +25,17 @@
 		<key>UIApplicationSupportsMultipleScenes</key>
 		<true/>
 	</dict>
-    <key>UIAppFonts</key>
-    <array>
-        <string>RobotoSlab-Bold.ttf</string>
-        <string>RobotoSlab-Light.ttf</string>
-        <string>WorkSans-Black.otf</string>
-        <string>WorkSans-Blold.otf</string>
-        <string>WorkSans-Regular.otf</string>
-        <string>OpenSans-Bold.ttf</string>
-        <string>OpenSans-Regular.ttf</string>
-    </array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>MavenPro-Regular.ttf</string>
+		<string>RobotoSlab-Bold.ttf</string>
+		<string>RobotoSlab-Light.ttf</string>
+		<string>WorkSans-Black.otf</string>
+		<string>WorkSans-Blold.otf</string>
+		<string>WorkSans-Regular.otf</string>
+		<string>OpenSans-Bold.ttf</string>
+		<string>OpenSans-Regular.ttf</string>
+	</array>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchScreen</key>

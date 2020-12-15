@@ -108,7 +108,6 @@ struct ScreenThree: View {
                 
             }
             .padding(.bottom,20)
-            
         }
         .padding(.horizontal)
     }

@@ -67,7 +67,7 @@ struct ScreenOne: View {
                 Image(systemName: "arrow.right")
                     .font(.title)
                     .foregroundColor(Color.white)
-                    
+                
             }
             .padding(.top,35)
             Spacer()
