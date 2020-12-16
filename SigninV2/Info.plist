@@ -27,6 +27,8 @@
 	</dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>NunitoSans-Regular.ttf</string>
+		<string>NunitoSans-Bold.ttf</string>
 		<string>MavenPro-Medium.ttf</string>
 		<string>MavenPro-Bold.ttf</string>
 		<string>Oxygen-Regular.ttf</string>

@@ -32,6 +32,7 @@
 		336B79A6252128E300A6E1B1 /* ScreenTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B79A5252128E300A6E1B1 /* ScreenTwo.swift */; };
 		336B79AE2521369100A6E1B1 /* ScreenThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B79AD2521369100A6E1B1 /* ScreenThree.swift */; };
 		33DEA3CE2589741000B5E0E8 /* ScreenFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DEA3CD2589741000B5E0E8 /* ScreenFive.swift */; };
+		33DEA3D2258A1E4500B5E0E8 /* ScreenSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DEA3D1258A1E4500B5E0E8 /* ScreenSix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		336B79A5252128E300A6E1B1 /* ScreenTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTwo.swift; sourceTree = "<group>"; };
 		336B79AD2521369100A6E1B1 /* ScreenThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenThree.swift; sourceTree = "<group>"; };
 		33DEA3CD2589741000B5E0E8 /* ScreenFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenFive.swift; sourceTree = "<group>"; };
+		33DEA3D1258A1E4500B5E0E8 /* ScreenSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				33226E76258901CC00534B0A /* ScreenFour.swift */,
 				33DEA3CD2589741000B5E0E8 /* ScreenFive.swift */,
 				336B792E2521085000A6E1B1 /* Components */,
+				33DEA3D1258A1E4500B5E0E8 /* ScreenSix.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				336B797D25210CEF00A6E1B1 /* ScreenOne.swift in Sources */,
 				336B799325211A2400A6E1B1 /* CustomSecureField.swift in Sources */,
 				336B791F2521081600A6E1B1 /* ContentView.swift in Sources */,
+				33DEA3D2258A1E4500B5E0E8 /* ScreenSix.swift in Sources */,
 				336B79AE2521369100A6E1B1 /* ScreenThree.swift in Sources */,
 				336B79A6252128E300A6E1B1 /* ScreenTwo.swift in Sources */,
 				336B791D2521081600A6E1B1 /* SigninV2App.swift in Sources */,
