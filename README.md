@@ -8,12 +8,11 @@ iOS login Screens, with SwiftUI Designs inspired by [Project365.design](https://
 ## What Done
 
 - Created new project useing SwiftUI2.0
-- First three design done.
+- All design done.
 - Using custom fonts.
 
 ## Todo
 
-- Do the remainin 3 screens
 - Add animation.
 
 
