@@ -27,6 +27,10 @@
 	</dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>MavenPro-Medium.ttf</string>
+		<string>MavenPro-Bold.ttf</string>
+		<string>Oxygen-Regular.ttf</string>
+		<string>Oxygen-Bold.ttf</string>
 		<string>MavenPro-Regular.ttf</string>
 		<string>RobotoSlab-Bold.ttf</string>
 		<string>RobotoSlab-Light.ttf</string>
